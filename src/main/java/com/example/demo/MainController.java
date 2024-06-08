@@ -12,7 +12,7 @@ public class MainController {
 	private WeatherService weatherService;
 	
 	@GetMapping("")
-	public String viewHomefPahgge(Model model) {
+	public String viewHomeahgge(Model model) {
 		try {
 			RealtimeWeather realtimeWeather = weatherService.getRealtimeWeather();
 			
