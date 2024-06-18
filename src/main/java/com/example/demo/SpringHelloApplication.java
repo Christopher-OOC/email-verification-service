@@ -13,9 +13,4 @@ public class SpringHelloApplication {
 		SpringApplication.run(SpringHelloApplication.class, args);
 	}
 	
-	@Bean
-	ObjectMapper getObjejhtguyhctMapper() {
-		return new ObjectMapper();
-	}
-
 }
