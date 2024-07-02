@@ -8,7 +8,7 @@ public class MainController {
 	
 	@GetMapping("/email-verification")
 	public String index() {
-		System.out.println("hello");
+		
 		return "index";
 	}
 	
